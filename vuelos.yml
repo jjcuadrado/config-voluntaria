@@ -12,8 +12,6 @@ spring:
    dialect: org.hibernate.dialect.SQLServer2012Dialect
    naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
    naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-server:
- port: 5011
 eureka:
  client:
   serviceUrl:
