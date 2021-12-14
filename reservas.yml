@@ -1,0 +1,18 @@
+spring:
+ application:
+  name: reservas
+ datasource:
+  driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  url: jdbc:sqlserver://172.24.144.1\SQLEXPRESS;databaseName=viajes
+  username: sa
+  password: telynet
+ jpa:
+  show-sql: true
+  hibernate:
+   dialect: org.hibernate.dialect.SQLServer2012Dialect
+   naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+   naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+eureka:
+ client:
+  serviceUrl:
+   defaultZone: http://172.24.144.1:8761/eureka
