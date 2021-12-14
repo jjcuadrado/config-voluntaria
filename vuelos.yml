@@ -16,5 +16,3 @@ eureka:
  client:
   serviceUrl:
    defaultZone: http://172.24.144.1:8761/eureka
- instance:
-  instance-id: 1
