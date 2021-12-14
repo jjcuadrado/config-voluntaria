@@ -13,7 +13,7 @@ spring:
    naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
    naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 server:
- port: 5101
+ port: 5011
 eureka:
  client:
   serviceUrl:
